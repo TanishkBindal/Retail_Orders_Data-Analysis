@@ -8,7 +8,7 @@ This project demonstrates an end-to-end data analysis pipeline on the Retail Ord
 - [Getting Started](#getting-started)
 - [ETL Process](#etl-process)
 - [Data Analysis](#data-analysis)
-- [Queries & Key Insights](#queries-&-key-insights)
+- [Queries & Key Insights](#queries--key-insights)
 - [Conclusion](#conclusion)
 
 ## Tools and Technologies Used
