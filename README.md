@@ -8,7 +8,7 @@ This project demonstrates an end-to-end data analysis pipeline on the Retail Ord
 - [Getting Started](#getting-started)
 - [ETL Process](#etl-process)
 - [Data Analysis](#data-analysis)
-- [Queries](#queries)
+- [Queries & Key Insights](#queries-&-key-insights)
 - [Conclusion](#conclusion)
 
 ## Tools and Technologies Used
@@ -123,7 +123,7 @@ df.to_sql('df_orders', con=conn, index=False, if_exists='replace')
 ## Data Analysis
 The following SQL queries are designed to perform data analysis with the objective of answering key business and analytical questions:
 
-### Queries
+### Queries & Key Insights
 
 1. **Top 10 highest Revenue generating Products :**
 ```sql
