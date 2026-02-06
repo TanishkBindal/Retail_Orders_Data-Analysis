@@ -147,6 +147,7 @@ from cte  )
 select * from ranked_cte
 where rn < 6
  ```
+<img width="331" height="468" alt="Output - 2" src="https://github.com/user-attachments/assets/e179e719-636f-4489-9edc-eaeaf112fb3c" />
 
 3. **Month-over-Month growth comparison for 2022 and 2023 Sales :**
 ```sql
@@ -163,6 +164,7 @@ from cte
 group by order_month
 order by order_month
 ```
+<img width="316" height="313" alt="Screenshot 2026-02-06 173348" src="https://github.com/user-attachments/assets/dc073bb2-1c95-4fa9-b27c-c57bc5451e1f" />
 
 4. **For each Category which Month had highest Sales :**
 ```sql
@@ -179,27 +181,29 @@ from cte)
 select * from ranked_cte
 where rn = 1
 ```
+<img width="377" height="133" alt="Screenshot 2026-02-06 173712" src="https://github.com/user-attachments/assets/db306cf7-eb09-4dc1-9de6-123285d18028" />
 
 5. **Which Sub-Category had highest growth by Profit in 2023 compared to 2022 :**
 ```sql
 with cte as (
 select sub_category, year(order_date) as order_year,
-sum(sale_price) as sales
+sum(profit) as profit
 from df_orders
 group by sub_category, year(order_date)
 	),
 cte2 as (
 select sub_category
-, sum(case when order_year=2022 then sales else 0 end) as sales_2022
-, sum(case when order_year=2023 then sales else 0 end) as sales_2023
+, sum(case when order_year=2022 then profit else 0 end) as profit_2022
+, sum(case when order_year=2023 then profit else 0 end) as profit_2023
 from cte 
 group by sub_category
 )
 select top 1 *
-,(sales_2023-sales_2022) as diff_in_sales
+,(profit_2023-profit_2022) as diff_in_profit
 from  cte2
-order by diff_in_sales desc
+order by diff_in_profit desc
 ```
+<img width="431" height="94" alt="Screenshot 2026-02-06 174209" src="https://github.com/user-attachments/assets/e8add2bd-736e-4935-96ba-195f41b38d4f" />
 
 6. **How is the business performing over time (Sales and Profit Trend) :**
 ```sql
