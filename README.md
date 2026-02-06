@@ -333,6 +333,28 @@ from ranked_products
 where rnk < = 3
 ```
 
+## Conclusion
+This project represents a complete end-to-end learning journey in data analytics, combining Python and SQL to derive meaningful insights from a retail orders dataset. From acquiring data via the Kaggle API to performing thorough data cleaning, transformation, and structured analysis in SQL Server, each phase demanded consistency, problem-solving, and attention to detail. The challenges encountered throughout the process strengthened my understanding of real-world data workflows and reinforced best practices in data handling and analysis. This work reflects not only my technical growth but also my perseverance, discipline, and genuine passion for transforming raw data into actionable business insights.
+
+
+<div align="left">
+<h2>Connect with me <a href="https://gifyu.com/image/Zy2f"><img src="https://github.com/milaan9/milaan9/blob/main/Handshake.gif" width="50px"></a>
+</h2>
+<p align="left">
+ 
+ [<img src = "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_640.png" width ="55" height ="55" align = "center" style= "postion:relative">](https://github.com/TanishkBindal)&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/1024px-LinkedIn_icon_circle.svg.png" width ="55" height ="85" align = "center" style= "postion:relative">](https://www.linkedin.com/in/tanishk-bindal)
+[<img src = "https://static.vecteezy.com/system/resources/previews/066/118/531/non_2x/linktree-circle-logo-icon-linktree-app-editable-transparent-background-premium-social-media-design-for-digital-download-free-png.png" width ="90" height ="280" align = "center" style= "postion:relative">](https://linktr.ee/tanishkbindal)
+
+ 
+ <p align="right">(<a href="#top">Back to top</a>)</p>
+</p> 
+
+
+
+
+
+
 
 
 
