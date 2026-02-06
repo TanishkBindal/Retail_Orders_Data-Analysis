@@ -4,7 +4,7 @@
 This project demonstrates an end-to-end data analysis pipeline on the Retail Orders dataset using Python and SQL Server. Data is sourced via the Kaggle API, cleaned and processed using Python (Pandas), and then loaded into SQL Server for analysis. Advanced SQL concepts such as CTEs, subqueries, and window functions are used to extract meaningful business insights, showcasing a practical and scalable analytics workflow.
 
 ## Table of Contents
-- [ Tools and Technologies Used](#tools-and-technologies-used)
+- [Tools and Technologies Used](#tools-and-technologies-used)
 - [Getting Started](#getting-started)
 - [ETL Process](#etl-process)
 - [Data Analysis](#data-analysis)
